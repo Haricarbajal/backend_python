@@ -108,4 +108,4 @@ async def login(formulario : OAuth2PasswordRequestForm = Depends()):
 
 @app.get("/users/me")
 async def me(user : User = Depends(current_user)):
-    return user
+    return user tu mama calata
